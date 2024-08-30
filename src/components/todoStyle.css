@@ -1,0 +1,89 @@
+.todobody {
+    width: 90vw;
+}
+
+.TodoAddtasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Todoinputs {
+    font-size: 1.5rem;
+    flex-grow: 1;
+    width: 20rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
+    border: 2px solid #12ac88;
+    outline: none;
+
+
+}
+
+.Todoadd {
+    width: 10rem;
+    margin: 1rem;
+    flex-grow: 1;
+    background-color: #12ac88;
+    vertical-align: super;
+}
+
+.todofilter {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+select {
+    height: 5vh;
+    border: 2px solid #ffffff;
+    border-radius: 0.5rem;
+    vertical-align: middle;
+}
+
+.Not-Completed {
+    background-color: #fe7e7e;
+}
+
+.Completed {
+    background-color: #12ac88;
+}
+
+.taskCard {
+    flex-grow: 1;
+    text-align: justify;
+    padding: 2rem;
+    width: 25rem;
+    background-color: #ccf5d3;
+    color: #000000;
+    word-wrap: break-word;
+
+}
+
+.cardArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    margin: 0 auto;
+    gap: 5rem;
+}
+
+.EditDelete {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+
+.delete-btw {
+    background-color: #d05e1f;
+}
